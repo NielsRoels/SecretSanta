@@ -25,7 +25,8 @@
         "jms/i18n-routing-bundle": "^1.1",
         "jms/translation-bundle": "^1.1",
         "egulias/email-validator": "~1.2",
-        "google/apiclient": "^1.1"
+        "google/apiclient": "^1.1",
+        "mandrill/mandrill": "^1.0"
     },
     "scripts": {
         "post-install-cmd": [
