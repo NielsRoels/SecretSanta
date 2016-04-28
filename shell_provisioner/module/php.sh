@@ -2,7 +2,7 @@
 
 # PHP
 
-apt-get -y install php5 php5-intl php5-xdebug php5-apcu
+apt-get -y install php5 php5-intl php5-xdebug php5-apcu php5-curl
 
 # PHP config
 sed -i "s#;date.timezone =#date.timezone = Europe/Brussels#" /etc/php5/apache2/php.ini
