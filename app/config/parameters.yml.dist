@@ -42,3 +42,4 @@ parameters:
     export_user:       export
     export_password:   export
     ga_view_id:        ga:00000000
+    mandrill_api_key:  YOUR_API_KEY
