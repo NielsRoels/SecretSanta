@@ -549,3 +549,9 @@ report:
     top_browser: 'Top 5 browsers'
     no_data: 'There are no data available for this season.'
     season_info: 'Choose the season you want to get the data from. Each season begins the 1st of April and lasts until March 30.'
+    marketing_automation: Marketing automation
+    mandrill_report:
+        title: Mandrill report of the last 90 days
+        sent: Amount of emails sent
+        opened: Amount of openings of emails
+        unique: Amount of unique openings of emails

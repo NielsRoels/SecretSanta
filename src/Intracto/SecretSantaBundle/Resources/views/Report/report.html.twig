@@ -257,6 +257,35 @@
             {% endif %}
 
             <div class="clearfix"></div>
+
+            {% if mandrill_report is not empty %}
+                <h2>{{ 'report.marketing_automation'|trans }}</h2>
+
+                <div class="col-xs-12 report">
+                    <div class="report_inside">
+                        <h3>{{ 'report.mandrill_report.title'|trans }}</h3>
+                        <table>
+                            <col width="50%">
+                            <col width="25%">
+                            <col width="25%">
+                            <tr>
+                                <td>{{ 'report.mandrill_report.sent'|trans }}</td>
+                                <td>{{ mandrill_report['mails_sent'] }}</td>
+                            </tr>
+                            <tr>
+                                <td>{{ 'report.mandrill_report.opened'|trans }}</td>
+                                <td>{{ mandrill_report['mails_opened'] }}</td>
+                            </tr>
+                            <tr>
+                                <td>{{ 'report.mandrill_report.unique'|trans }}</td>
+                                <td>{{ mandrill_report['unique_opens'] }}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            {% endif %}
+
+            <div class="clearfix"></div>
         {% endif %}
     </div>
 {% endblock %}
